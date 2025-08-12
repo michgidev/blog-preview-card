@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Responsive blog preview card using HTML & CSS">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <main>
+
+    <article class="card">
+      <img class="card__image" src="./assets/images/illustration-article.svg" alt="blog image" 
+        width="288" height="288" fetchpriority="high">
+
+      <div class="card__content">
+        <span class="card__tag">
+          Learning
+        </span>
+
+        <p class="card__date">Published 21 Dec 2023</p>
+
+        <a class="card__link-title" href="javascript:;">
+          <h2 class="card__title">
+            HTML & CSS foundations
+          </h2>
+        </a>
+
+        <p class="card__text">
+          These languages are the backbone of every website, 
+          defining structure, content, and presentation.
+        </p>
+      </div>
+
+      <div class="card__avatar-container">
+        <img class="card__avatar-image" src="./assets/images/image-avatar.webp" alt="Avatar"
+         width="32" height="32" fetchpriority="high">
+
+        <h3 class="card__avatar-name">Greg Hooper</h3>
+      </div> 
+
+    </article>
+
+  </main>
+</body>
+</html>
